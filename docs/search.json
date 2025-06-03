@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "svi.html",
+    "href": "svi.html",
+    "title": "Social Vulerability",
+    "section": "",
+    "text": "To characterize social vulnerability, we utilized the Social Vulnerability Index (SVI) dataset.\n\nOriginally developed for emergency response strategy, the SVI is now used in various applications, including health behavior studies and natural disaster impact documentation.\nThe dataset includes fifteen socioeconomic and demographic factors grouped into four themes: socioeconomic status; household composition; race, ethnicity, and language; and housing and transportation.\nWhile not perfect, (see Spielman et al., 2020), it has been used in similar studies recently and is easily available, making this and other work reproducible (see Rad et al., 2023). The SVI data is delivered by census tract or county, and for this study, we used the SVI data at the county scale for consistency with the datasets described further below."
+  },
+  {
+    "objectID": "svi.html#what-this-dataset-depicts",
+    "href": "svi.html#what-this-dataset-depicts",
+    "title": "Social Vulerability",
+    "section": "",
+    "text": "To characterize social vulnerability, we utilized the Social Vulnerability Index (SVI) dataset.\n\nOriginally developed for emergency response strategy, the SVI is now used in various applications, including health behavior studies and natural disaster impact documentation.\nThe dataset includes fifteen socioeconomic and demographic factors grouped into four themes: socioeconomic status; household composition; race, ethnicity, and language; and housing and transportation.\nWhile not perfect, (see Spielman et al., 2020), it has been used in similar studies recently and is easily available, making this and other work reproducible (see Rad et al., 2023). The SVI data is delivered by census tract or county, and for this study, we used the SVI data at the county scale for consistency with the datasets described further below."
+  },
+  {
+    "objectID": "svi.html#conus-wide-svi",
+    "href": "svi.html#conus-wide-svi",
+    "title": "Social Vulerability",
+    "section": "CONUS-wide SVI",
+    "text": "CONUS-wide SVI\nThe map below depicts the “RPL_THEMES”, or overall SVI ranking variable.\n\n\nIn 2018, roughly 15% of Americans (49,626,105 people in 643 out of 3,143 counties) had an SVI rating &gt; 0.8, indicating high levels of vulnerability to external stressors. Conversely, roughly 13% (41,039,615) had an SVI rating &lt; 0.2 (SVI ranges from 0.0 - 1.0)(see chart below)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Assessing Wildfire Risk and Drinking Water Supply for Underserved Populations in the U.S.",
+    "section": "",
+    "text": "Underserved populations can be disproportionately impacted by environmental stressors such as wildfire. Further, one stressor can have compounding effects as it interacts with the environment. For example, wildfires can negatively impact water supplies through increased erosion and contamination (e.g., volatile organic compounds). Here we used the Forest-to-Faucets (referred to as Fire Risk to Water, FRW) and Social Vulnerability Index (SVI) datasets to explore the potential connections between wildfire risk, drinking water supplies and underserved populations. Additionally, we used the United States Department of Agriculture Rural-Urban Continuum Codes to further characterize the communities at risk by population density."
+  },
+  {
+    "objectID": "index.html#introduction-to-issues-and-our-work",
+    "href": "index.html#introduction-to-issues-and-our-work",
+    "title": "Assessing Wildfire Risk and Drinking Water Supply for Underserved Populations in the U.S.",
+    "section": "",
+    "text": "Underserved populations can be disproportionately impacted by environmental stressors such as wildfire. Further, one stressor can have compounding effects as it interacts with the environment. For example, wildfires can negatively impact water supplies through increased erosion and contamination (e.g., volatile organic compounds). Here we used the Forest-to-Faucets (referred to as Fire Risk to Water, FRW) and Social Vulnerability Index (SVI) datasets to explore the potential connections between wildfire risk, drinking water supplies and underserved populations. Additionally, we used the United States Department of Agriculture Rural-Urban Continuum Codes to further characterize the communities at risk by population density."
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "Assessing Wildfire Risk and Drinking Water Supply for Underserved Populations in the U.S.",
+    "section": "Goals",
+    "text": "Goals\nOur main goal, as stated above was to illuminate and explore the places where wildfire risk to water supplies and vulnerable populations converge. Additionally we wanted to:\n\nWork up, display and share input datasets\nInspire conversations and future research\nShare final results"
+  },
+  {
+    "objectID": "wfhp.html#wfhp-summarized-by-county",
+    "href": "wfhp.html#wfhp-summarized-by-county",
+    "title": "Wildfire Hazard Potential",
+    "section": "WFHP summarized by county",
+    "text": "WFHP summarized by county"
+  },
+  {
+    "objectID": "wfhp.html#summary",
+    "href": "wfhp.html#summary",
+    "title": "Wildfire Hazard Potential",
+    "section": "Summary",
+    "text": "Summary"
+  }
+]

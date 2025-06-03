@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    watch-inputs: false
+
+website:
+  title: "LANDFIRE-Powered Landscape Assessment"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: svi.qmd
+        text: Social Vulnerability
+      - href: wfhp.qmd
+        text: Wildfire Hazard Potential
+      - href: wrw.qmd
+        text: Risk to Water
+      - href: convergence.qmd
+        text: Convergence
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: source
+

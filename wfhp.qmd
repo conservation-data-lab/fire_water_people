@@ -1,0 +1,11 @@
+---
+title: "Wildfire Hazard Potential"
+format: html
+---
+
+## What this dataset depicts
+
+## WFHP summarized by county
+
+## Summary
+

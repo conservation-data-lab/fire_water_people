@@ -1,0 +1,23 @@
+---
+title: "Assessing Wildfire Risk and Drinking Water Supply for Underserved Populations in the U.S."
+author:
+  - name: Hannah Young
+  - name: Mary Kelly
+  - name: Andrea Armstrong
+  - name: Sarah Hagen
+  - name: Randy Swaty
+---
+
+## Introduction to issues and our work
+
+Underserved populations can be disproportionately impacted by environmental stressors such as wildfire. Further, one stressor can have compounding effects as it interacts with the environment. For example, wildfires can negatively impact water supplies through increased erosion and contamination (e.g., volatile organic compounds). Here we used the Forest-to-Faucets (referred to as Fire Risk to Water, FRW) and Social Vulnerability Index (SVI) datasets to explore the potential connections between wildfire risk, drinking water supplies and underserved populations. Additionally, we used the United States Department of Agriculture Rural-Urban Continuum Codes to further characterize the communities at risk by population density. 
+
+
+## Goals
+
+Our main goal, as stated above was to illuminate and explore the places where wildfire risk to water supplies and vulnerable populations converge. Additionally we wanted to:
+
+
+1. Work up, display and share input datasets
+2. Inspire conversations and future research
+3. Share final results
