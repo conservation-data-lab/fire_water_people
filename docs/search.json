@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "wrw.html",
+    "href": "wrw.html",
+    "title": "Wildfire Risk to Water",
+    "section": "",
+    "text": "The IMP attribute in the Forest to Faucets dataset (Mack et al., 2022) represents the relative importance of surface water for human consumption. It is derived from a model that incorporates several key factors:\n\nWater intake location\n\nPopulation served by each water source\n\nType of water source (e.g., surface water vs. groundwater)\n\nThis model helps identify areas where surface water plays a critical role in supplying drinking water.\n\n\nThe IMP values are calculated at the HUC 12 watershed level, providing fine-scale insight into water source importance across the landscape. Areas with higher IMP values are those where surface water is more essential to meeting human water needs.\n\n\n\nTo estimate IMP at the county level, the dataset was spatially joined with a rasterized county layer using the Combine tool in ArcGIS. Relevant attributes were joined, and an area-weighted mean IMP was calculated for each county using R’s weighted.mean function. This process enabled mapping and analysis of surface water importance across counties in the contiguous U.S."
+  },
+  {
+    "objectID": "wrw.html#surface-water-importance-imp-overview",
+    "href": "wrw.html#surface-water-importance-imp-overview",
+    "title": "Wildfire Risk to Water",
+    "section": "",
+    "text": "The IMP attribute in the Forest to Faucets dataset (Mack et al., 2022) represents the relative importance of surface water for human consumption. It is derived from a model that incorporates several key factors:\n\nWater intake location\n\nPopulation served by each water source\n\nType of water source (e.g., surface water vs. groundwater)\n\nThis model helps identify areas where surface water plays a critical role in supplying drinking water.\n\n\nThe IMP values are calculated at the HUC 12 watershed level, providing fine-scale insight into water source importance across the landscape. Areas with higher IMP values are those where surface water is more essential to meeting human water needs.\n\n\n\nTo estimate IMP at the county level, the dataset was spatially joined with a rasterized county layer using the Combine tool in ArcGIS. Relevant attributes were joined, and an area-weighted mean IMP was calculated for each county using R’s weighted.mean function. This process enabled mapping and analysis of surface water importance across counties in the contiguous U.S."
+  },
+  {
+    "objectID": "wrw.html#surface-water-to-drinking-water-summarized-by-county",
+    "href": "wrw.html#surface-water-to-drinking-water-summarized-by-county",
+    "title": "Wildfire Risk to Water",
+    "section": "Surface water to drinking water summarized by county",
+    "text": "Surface water to drinking water summarized by county\n."
+  },
+  {
     "objectID": "svi.html",
     "href": "svi.html",
     "title": "Social Vulerability",
@@ -19,6 +40,41 @@
     "title": "Social Vulerability",
     "section": "CONUS-wide SVI",
     "text": "CONUS-wide SVI\nThe map below depicts the “RPL_THEMES”, or overall SVI ranking variable.\n\n\nIn 2018, roughly 15% of Americans (49,626,105 people in 643 out of 3,143 counties) had an SVI rating &gt; 0.8, indicating high levels of vulnerability to external stressors. Conversely, roughly 13% (41,039,615) had an SVI rating &lt; 0.2 (SVI ranges from 0.0 - 1.0)(see chart below)."
+  },
+  {
+    "objectID": "convergence.html",
+    "href": "convergence.html",
+    "title": "Convergence",
+    "section": "",
+    "text": "The analysis explores the connection between Wildfire Hazard Potential and surface water supplies vital for human populations. It uses data from the Forest to Faucets assessment v2.0 (Mack et al., 2022), which evaluates threats to clean water production in HUC12 watersheds across the continental U.S., considering factors like land cover, insect/disease impacts, and wildfire risk.\nSpecifically, the map below shows the wildfire threat to surface drinking water supplies, using the WFP_IMP_R (Relative Wildfire Risk to Important Drinking Water Watersheds) attribute in the Forest to Faucets dataset. This data was rasterized, merged with county-level data, and analyzed in R to produce weighted averages."
+  },
+  {
+    "objectID": "convergence.html#connecting-fire-and-water",
+    "href": "convergence.html#connecting-fire-and-water",
+    "title": "Convergence",
+    "section": "",
+    "text": "The analysis explores the connection between Wildfire Hazard Potential and surface water supplies vital for human populations. It uses data from the Forest to Faucets assessment v2.0 (Mack et al., 2022), which evaluates threats to clean water production in HUC12 watersheds across the continental U.S., considering factors like land cover, insect/disease impacts, and wildfire risk.\nSpecifically, the map below shows the wildfire threat to surface drinking water supplies, using the WFP_IMP_R (Relative Wildfire Risk to Important Drinking Water Watersheds) attribute in the Forest to Faucets dataset. This data was rasterized, merged with county-level data, and analyzed in R to produce weighted averages."
+  },
+  {
+    "objectID": "convergence.html#fire-and-water-convergence-by-county",
+    "href": "convergence.html#fire-and-water-convergence-by-county",
+    "title": "Convergence",
+    "section": "Fire and Water Convergence by County",
+    "text": "Fire and Water Convergence by County\n."
+  },
+  {
+    "objectID": "convergence.html#convergence-between-fire-water-and-people",
+    "href": "convergence.html#convergence-between-fire-water-and-people",
+    "title": "Convergence",
+    "section": "Convergence between fire, water and people",
+    "text": "Convergence between fire, water and people\nOur main interest was exploring where wildfire risk to surface-water derived drinking water and underserved populations converge. The map below brings all of this together. The bivariate map below depicts both Social Vulnerability Index and the wildfire threat to surface drinking water supplies per county.\n."
+  },
+  {
+    "objectID": "convergence.html#another-way-to-explore",
+    "href": "convergence.html#another-way-to-explore",
+    "title": "Convergence",
+    "section": "Another Way to Explore",
+    "text": "Another Way to Explore"
   },
   {
     "objectID": "index.html",
@@ -42,17 +98,31 @@
     "text": "Goals\nOur main goal, as stated above was to illuminate and explore the places where wildfire risk to water supplies and vulnerable populations converge. Additionally we wanted to:\n\nWork up, display and share input datasets\nInspire conversations and future research\nShare final results"
   },
   {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Assessing Wildfire Risk and Drinking Water Supply for Underserved Populations in the U.S.",
+    "section": "Background",
+    "text": "Background\nWildfire Trends and Ecological Consequences\nWildfire is a natural ecological process that has been actively suppressed across the contiguous United States (CONUS) for over a century. This suppression has led to the accumulation of forest fuels, which, combined with increasingly dry conditions, has resulted in more frequent and severe wildfires (Boisramé et al., 2017; Burke et al., 2021). The scale of burning has increased dramatically—from approximately two million acres annually in the early 1980s to ten million acres in 2021 (Robinne et al., 2021; Scott et al., 2021). In addition to the expansion in burned area, fire severity has also intensified. Parks et al. (2023) documented a substantial rise in stand-replacing fires in the modern era (1984–2020) compared to modeled fire regimes prior to European colonization, highlighting a significant shift in fire behavior and its ecological consequences.\nImpacts on Water Resources and Infrastructure\nWildfires can severely affect surface drinking water supplies, posing risks through erosion, contamination, and altered evapotranspiration processes (Boisramé et al., 2017; Soloman et al., 2021; Tecle & Neary, 2015; Pennino et al., 2022; Hohner et al., 2019; Smith et al., 2011). These impacts often manifest downstream at water treatment facilities, where filtration systems may be overwhelmed or forced to shut down due to compromised water quality (Hohner et al., 2019). Additionally, post-fire changes in vegetation—particularly tree loss—can alter streamflow dynamics. Most fires result in increased streamflow, which is often accompanied by heightened erosion and sedimentation, creating challenges for reservoir management and long-term water planning (Williams et al., 2022). These hydrologic shifts can have lasting effects on water availability and infrastructure resilience.\nSocial Vulnerability and Compounding Hazards\nBeyond ecosystem services, wildfires can have direct and disproportionate impacts on socially vulnerable populations—those who may struggle to anticipate, respond to, or recover from natural hazards (Iglesias et al., 2022). Smoke exposure and housing damage are among the most visible consequences, and studies show that rural communities of color are disproportionately affected by wildfire smoke (Kondo et al., 2022; Iglesias et al., 2022; Schumann III et al., 2024; Sanchez et al., 2025). The 2018 Camp Fire in Paradise, California, exemplifies how wildfires can compound existing vulnerabilities: homes were destroyed, water supplies became unsafe, and schools faced challenges providing clean drinking water (Hamideh et al., 2022). These disruptions can lead to cascading effects such as increased mental health issues and missed work (Odimayomi et al., 2021). Even outside of wildfire events, access to safe drinking water is disproportionately limited in low-income and BIPOC communities, which experience higher rates of drinking water system violations due to underinvestment, economic distress, and lack of technical capacity (Meehan et al., 2020; Switzer & Teodoro, 2018; Allaire et al., 2018; Mueller & Gasteyer, 2021; Allaire & Acquah, 2022; Scott et al., 2018; England & Datta, 2024; Glade & Ray, 2022). While research has explored wildfire impacts and social vulnerability separately, there is a notable gap in understanding how wildfire risk intersects with threats to drinking water and social inequity. This assessment aims to address that gap through a national-scale analysis."
+  },
+  {
+    "objectID": "wfhp.html",
+    "href": "wfhp.html",
+    "title": "Wildfire Hazard Potential",
+    "section": "",
+    "text": "The study uses the Wildfire Hazard Potential (WFHP) dataset (Dillon et al., 2020) to assess wildfire risk across the Coterminous United States (CONUS). WHP values are assigned to 270 x 270 meter pixels, representing the potential for difficult-to-control, high-intensity wildfires. These fires may involve crown ignition, rapid spread, and burning of live and dead biomass. The WHP model incorporates burn probability, flame-length probability (Short et al., 2020), historical fire locations (Short et al., 2017), and vegetation/fuel data from LANDFIRE 2014.\nData Processing and Analysis The continuous WHP values (not the classified 1–5 scale) were used. To summarize WHP at the county level, the researchers applied the “Combine” tool in GIS, merging WHP raster data with a rasterized county map. This produced pixel counts per WHP value for each county. Attributes were joined using the “Join Field” tool, and area-weighted averages were calculated by exporting the data to CSV and using R’s weighted.mean function.\nFinal Output and Mapping The resulting table of weighted WHP values was merged back into the county shapefile, enabling spatial visualization of wildfire hazard potential across CONUS counties. This approach allowed for a nuanced, county-level understanding of wildfire risk based on high-resolution pixel data."
+  },
+  {
+    "objectID": "wfhp.html#wildfire-hazard-potential-dataset-and-brief-methods",
+    "href": "wfhp.html#wildfire-hazard-potential-dataset-and-brief-methods",
+    "title": "Wildfire Hazard Potential",
+    "section": "",
+    "text": "The study uses the Wildfire Hazard Potential (WFHP) dataset (Dillon et al., 2020) to assess wildfire risk across the Coterminous United States (CONUS). WHP values are assigned to 270 x 270 meter pixels, representing the potential for difficult-to-control, high-intensity wildfires. These fires may involve crown ignition, rapid spread, and burning of live and dead biomass. The WHP model incorporates burn probability, flame-length probability (Short et al., 2020), historical fire locations (Short et al., 2017), and vegetation/fuel data from LANDFIRE 2014.\nData Processing and Analysis The continuous WHP values (not the classified 1–5 scale) were used. To summarize WHP at the county level, the researchers applied the “Combine” tool in GIS, merging WHP raster data with a rasterized county map. This produced pixel counts per WHP value for each county. Attributes were joined using the “Join Field” tool, and area-weighted averages were calculated by exporting the data to CSV and using R’s weighted.mean function.\nFinal Output and Mapping The resulting table of weighted WHP values was merged back into the county shapefile, enabling spatial visualization of wildfire hazard potential across CONUS counties. This approach allowed for a nuanced, county-level understanding of wildfire risk based on high-resolution pixel data."
+  },
+  {
     "objectID": "wfhp.html#wfhp-summarized-by-county",
     "href": "wfhp.html#wfhp-summarized-by-county",
     "title": "Wildfire Hazard Potential",
     "section": "WFHP summarized by county",
-    "text": "WFHP summarized by county"
-  },
-  {
-    "objectID": "wfhp.html#summary",
-    "href": "wfhp.html#summary",
-    "title": "Wildfire Hazard Potential",
-    "section": "Summary",
-    "text": "Summary"
+    "text": "WFHP summarized by county\n \nPatterns of WFHP are similar to those of the Social Vulnerability Index, i.e., concentrated in the southern and western regions of the country."
   }
 ]
